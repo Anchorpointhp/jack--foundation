@@ -1,0 +1,115 @@
+<!DOCTYPE html><html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Olidak Foundation – Natur bewahren</title>
+  <meta name="description" content="Eine unabhängige Informationsseite über Natur-, Tier- und Artenschutz.">
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f5f3e9;
+      color: #183b2b;
+      line-height: 1.7;
+    }
+    header {
+      background: #123d2b;
+      color: white;
+      padding: 24px 7%;
+    }
+    header h1 { margin: 0; }
+    nav { margin-top: 12px; }
+    nav a {
+      color: white;
+      margin-right: 18px;
+      text-decoration: none;
+    }
+    .hero {
+      padding: 75px 8%;
+      background: #dce9d5;
+    }
+    .hero h2 {
+      font-size: clamp(2rem, 6vw, 4rem);
+      line-height: 1.1;
+      max-width: 750px;
+    }
+    .hero p { max-width: 650px; font-size: 1.1rem; }
+    main { padding: 35px 8%; }
+    .notice {
+      background: #fff4d6;
+      border-left: 5px solid #b78b31;
+      padding: 15px;
+      margin-bottom: 30px;
+    }
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+    article {
+      background: white;
+      padding: 24px;
+      border-radius: 12px;
+      box-shadow: 0 4px 15px #183b2b12;
+    }
+    article h3 { color: #26734d; }
+    footer {
+      background: #123d2b;
+      color: white;
+      padding: 28px 8%;
+    }
+    footer a { color: #dce9d5; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Olidak Foundation</h1>
+    <nav>
+      <a href="#start">Startseite</a>
+      <a href="#mission">Unsere Mission</a>
+      <a href="#themen">Schutzprojekte</a>
+      <a href="#kontakt">Kontakt</a>
+    </nav>
+  </header>  <section class="hero" id="start">
+    <h2>Gemeinsam die Natur und ihre Tiere bewahren.</h2>
+    <p>Eine Zukunft, in der Wildtiere geschützt werden, Lebensräume erhalten bleiben und Menschen Verantwortung für unseren Planeten übernehmen.</p>
+  </section>  <main>
+    <div class="notice">
+      <strong>Wichtiger Hinweis:</strong>
+      Dies ist eine unabhängige Informationsseite und keine offizielle Website der Pelorus Jack Foundation. Es werden hier keine Spenden gesammelt und keine Zahlungen entgegengenommen.
+    </div><section id="mission">
+  <h2>Unsere Mission</h2>
+  <p>Naturschutz beginnt mit Wissen, Mitgefühl und verantwortungsvollem Handeln. Wir möchten über bedrohte Tierarten, den Schutz ihrer Lebensräume und die Herausforderungen für unsere Umwelt informieren.</p>
+</section>
+
+<section id="themen">
+  <h2>Unsere Schwerpunktthemen</h2>
+  <div class="cards">
+    <article>
+      <h3>Wildtierschutz</h3>
+      <p>Bedrohte Arten schützen und auf die Folgen von Wilderei und illegalem Tierhandel aufmerksam machen.</p>
+    </article>
+    <article>
+      <h3>Meeresschutz</h3>
+      <p>Ozeane, Haie, Kraken und andere Meereslebewesen besser verstehen und schützen.</p>
+    </article>
+    <article>
+      <h3>Wälder bewahren</h3>
+      <p>Die Bedeutung gesunder Wälder und den Schutz der Lebensräume von Orang-Utans hervorheben.</p>
+    </article>
+  </div>
+</section>
+
+<section id="kontakt">
+  <h2>Weitere Informationen</h2>
+  <p>Informiere dich über Naturschutz und überprüfe Informationen anhand verlässlicher Quellen.</p>
+  <p><a href="https://www.pelorus-jack.org/" target="_blank" rel="noopener noreferrer">Offizielle Website der Pelorus Jack Foundation</a></p>
+</section>
+
+  </main>  <footer>
+    <p>Olidak Foundation – unabhängige Informationsseite zum Natur- und Tierschutz.</p>
+    <p>Keine offizielle Verbindung zur Pelorus Jack Foundation. Keine Spenden- oder Zahlungsfunktion.</p>
+  </footer>
+</body>
+</html>
